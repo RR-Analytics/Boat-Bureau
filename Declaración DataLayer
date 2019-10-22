@@ -1,0 +1,52 @@
+<script>
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+"event": "eec.impressionView",
+"language": "ES",
+"cookie id": "12345",
+"domain": "vamos.es",
+"url": "elige-coche-para-renting",
+"page type": "grid",
+  "ecommerce": {
+    "currencyCode": "EUR",
+    "impressions": [{
+      "id": "11111",
+      "name": "500 1.2 Lounge",
+      "price": "208.00",
+      "brand": "Fiat",
+      "category": "economico",
+      "position": 0,
+      "cd1": "no discount",
+      "cd2": "0%",
+      "cd3": "VAMOS",
+      "cd4": "10000",
+      "cd5": "36",
+      "cm1": "208.00",
+      "list": "elige coche"
+    },
+    {
+      "id": "22222",
+      "name": "500 Lounge GLP",
+      "price": "214.00",
+      "brand": "Fiat",
+      "category": "economico",
+      "position": 1,
+      "cd1": "no discount",
+      "cd2": "0%",
+      "cd3": "VAMOS",
+      "cd4": "10000",
+      "cd5": "36",
+      "cm1": "214.00",
+      "list": "elige coche"
+    }],
+    "promoView": {
+      "promotions": [{
+        "id": "no",
+        "name": "no",
+        "creative": "no",
+        "position": "no"
+      }]
+    }
+  }
+});
+</script>
