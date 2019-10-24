@@ -1,0 +1,31 @@
+<script>
+window.dataLayer = window.dataLayer || [];
+dataLayer.push({
+    "event": "productClick",
+    "ecommerce": {
+		"click": {
+			"actionField": {"list": "Search Results"},  		//Propiedad de lista (opcional)
+			"products": [{								
+			    "name": "Gulet Fortuna",                		//Nombre del producto (requerido)
+			    "id": "123456",					//ID Producto (requerido)
+			    "price": "25200.00",				//Precio del Producto
+			    "brand": "Gulet",					//Marca del producto
+			    "category": "gulet",				//Catergoría del producto
+			    "variant": "fortuna",				//Variante del producto
+			    "list": "Search Results",				//Lista donde está el producto
+			    "position": 1,					//Posición donde se encuentra el producto
+			    "dimension7":"10",					//Descuento (dimensión personalizada)
+			    "dimension8":"28000.00",				//Precio Original (dimensión personalizada)
+			    "dimension9":"2016",				//Año de fabricación (dimensión personalizada)
+			    "dimension10":"Bodrum",				//Ciudad de barco (dimensión personalizada)
+			    "dimension11":"8",					//Número de pasajeros (dimensión personalizada)
+			    "dimension12":"Obligatory",				//Skipper - Optional/Obligatory (dimensión personalizada)
+			    "dimension13":"4",					//Número de cabinas (dimensión personalizada)
+			    "dimension14":"4",					//Número de lavabos (dimensión personalizada)
+			    "dimension15":"8",					//Número de camas (dimensión personalizada)
+			    "dimension16":"7.8",				//Eslora (dimensión personalizada)
+			}]
+		}
+	}
+});
+</script>
